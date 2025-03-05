@@ -4,6 +4,8 @@
 
 This repository contains the code for generating anime faces using a Generative Adversarial Network (GAN) trained on the Crypko dataset. In this project, I built a model based on the DCGAN architecture with improvements inspired by the WGAN-GP framework.
 
+![image](https://github.com/user-attachments/assets/1dc89eb3-bc4f-45f6-89a0-8211b8b68f62)
+
 ## Overview
 
 The objective of this project is to train an anime face generator that can produce high-quality images, as measured by the Anime Face Detection (AFD) rate. The implementation starts with a benchmark DCGAN and then extends it with modifications such as gradient penalty (WGAN-GP) to stabilize training and improve image quality.
